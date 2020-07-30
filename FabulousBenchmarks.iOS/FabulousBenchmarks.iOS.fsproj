@@ -65,6 +65,7 @@
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Developer</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>None</MtouchLink>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <DebugType>none</DebugType>
@@ -91,6 +92,60 @@
     <CodesignKey>iPhone Distribution</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.FSharp.targets" Condition="Exists('$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.FSharp.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105.The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Diagnostics.Tracing.TraceEvent.2.0.49\build\Microsoft.Diagnostics.Tracing.TraceEvent.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Diagnostics.Tracing.TraceEvent.2.0.49\build\Microsoft.Diagnostics.Tracing.TraceEvent.props'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Forms.4.6.0.1180\build\Xamarin.Forms.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.4.6.0.1180\build\Xamarin.Forms.props'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Forms.4.6.0.1180\build\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.4.6.0.1180\build\Xamarin.Forms.targets'))" />
+  </Target>
+  <Import Project="..\packages\Xamarin.Forms.4.6.0.1180\build\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.4.6.0.1180\build\Xamarin.Forms.targets')" />
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-83.5x83.5%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-76x76%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-76x76%401x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-60x60%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-60x60%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ios-marketing.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-60x60@2x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-60x60@3x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-76x76@1x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-76x76@2x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-83.5x83.5@2x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <Compile Include="Properties\AssemblyInfo.fs" />
+    <Compile Include="AppDelegate.fs" />
+    <None Include="Entitlements.plist" />
+    <None Include="Info.plist" />
+    <None Include="packages.config" />
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="BenchmarkDotNet, Version=0.12.1.0, Culture=neutral, PublicKeyToken=aa0ca2f9092cefc4">
       <HintPath>..\packages\BenchmarkDotNet.0.12.1\lib\netstandard2.0\BenchmarkDotNet.dll</HintPath>
@@ -217,41 +272,9 @@
     <Reference Include="Xamarin.Essentials">
       <HintPath>..\packages\Xamarin.Essentials.1.5.1\lib\xamarinios10\Xamarin.Essentials.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.FSharp.targets" Condition="Exists('$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.FSharp.targets')" />
-  <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-83.5x83.5%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-76x76%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-76x76%401x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-60x60%403x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-60x60%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ios-marketing.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-60x60@2x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-60x60@3x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-76x76@1x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-76x76@2x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-83.5x83.5@2x.png" />
-    <Compile Include="Properties\AssemblyInfo.fs" />
-    <Compile Include="AppDelegate.fs" />
-    <None Include="Entitlements.plist" />
-    <None Include="Info.plist" />
-    <None Include="packages.config" />
-    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
     <ProjectReference Include="..\FabulousBenchmarks\FabulousBenchmarks.fsproj">
       <Project>{D282E140-6E66-45A9-93D4-4617715157DB}</Project>
       <Name>FabulousBenchmarks</Name>
     </ProjectReference>
   </ItemGroup>
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105.The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.Diagnostics.Tracing.TraceEvent.2.0.49\build\Microsoft.Diagnostics.Tracing.TraceEvent.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Diagnostics.Tracing.TraceEvent.2.0.49\build\Microsoft.Diagnostics.Tracing.TraceEvent.props'))" />
-    <Error Condition="!Exists('..\packages\Xamarin.Forms.4.6.0.1180\build\Xamarin.Forms.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.4.6.0.1180\build\Xamarin.Forms.props'))" />
-    <Error Condition="!Exists('..\packages\Xamarin.Forms.4.6.0.1180\build\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.4.6.0.1180\build\Xamarin.Forms.targets'))" />
-  </Target>
-  <Import Project="..\packages\Xamarin.Forms.4.6.0.1180\build\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.4.6.0.1180\build\Xamarin.Forms.targets')" />
 </Project>
