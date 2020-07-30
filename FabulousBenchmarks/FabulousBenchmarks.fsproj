@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="StringKeyComparison.fs" />
+    <Compile Include="TailCallDetector.fs" />
+    <EmbeddedResource Include="MainPage.xaml" />
+    <Compile Include="MainPage.xaml.fs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.12.1" />
+    <PackageReference Update="FSharp.Core" Version="4.7.2" />
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.1180" />
+  </ItemGroup>
+</Project>

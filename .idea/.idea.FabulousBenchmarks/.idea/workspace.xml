@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e20852ef-ed84-4352-b247-f546cdb878b7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/FabulousBenchmarks.Android/MainActivity.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B481E3CF-1007-32AC-B48E-25C13B4FC866/C/async.fs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FabulousBenchmarks/MainPage.xaml.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FabulousBenchmarks.iOS/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FabulousBenchmarks.iOS/AppDelegate.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/00706156-875E-478D-85DC-E3F23CDC92F0/4F/Device.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FabulousBenchmarks/MainPage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FabulousBenchmarks/StringKeyComparison.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FabulousBenchmarks/App.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/50E6515B-C5DF-44A4-9A49-BD35981F7153/22/XamlLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FabulousBenchmarks.Android/Properties/AssemblyInfo.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FabulousBenchmarks/TailCallDetector.fs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FabulousBenchmarks/Program.fs" />
+        <option value="$PROJECT_DIR$/FabulousBenchmarks/StringKeyComparison.fs" />
+        <option value="$PROJECT_DIR$/FabulousBenchmarks/TailCallDetector.fs" />
+        <option value="$PROJECT_DIR$/FabulousBenchmarks/FabulousBenchmarks.fsproj" />
+        <option value="$PROJECT_DIR$/FabulousBenchmarks/MainPage.xaml.xml" />
+        <option value="$PROJECT_DIR$/FabulousBenchmarks/MainPage.xaml" />
+        <option value="$PROJECT_DIR$/FabulousBenchmarks/App.fs" />
+        <option value="$PROJECT_DIR$/FabulousBenchmarks.iOS/AppDelegate.fs" />
+        <option value="$PROJECT_DIR$/FabulousBenchmarks.iOS/FabulousBenchmarks.iOS.fsproj" />
+        <option value="$PROJECT_DIR$/FabulousBenchmarks.iOS/packages.config" />
+        <option value="$PROJECT_DIR$/FabulousBenchmarks/MainPage.xaml.fs" />
+      </list>
+    </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="FabulousBenchmarks.Android/invalid/Android Facet - FabulousBenchmarks.Android" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectId" id="1fPoCATvjZdbXFFeRYBzNJlfPYC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Device#class com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSSimulatorKind#com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSDevicesProvider" value="iPhone 11" />
+    <property name="DeviceKind#com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSDevicesProvider" value="Simulator" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="device.picker.selection" value="pixel_2_q_10_0_-_api_29" />
+  </component>
+  <component name="RunManager" selected="Xamarin.Android.Android Default">
+    <configuration name="FabulousBenchmarks" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/FabulousBenchmarks/FabulousBenchmarks.fsproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Android Default" type="XamarinAndroidProject" factoryName="Xamarin.Android">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/FabulousBenchmarks.Android/FabulousBenchmarks.Android.fsproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEPLOY_BEHAVIOUR_NAME" value="Default" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iOS Default" type="XamarinIOSProject" factoryName="Xamarin.iOS">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/FabulousBenchmarks.iOS/FabulousBenchmarks.iOS.fsproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="IS_PASS_PARENT_ENVS" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.FabulousBenchmarks" />
+      <item itemvalue="Xamarin.Android.Android Default" />
+      <item itemvalue="Xamarin.iOS.iOS Default" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e20852ef-ed84-4352-b247-f546cdb878b7" name="Default Changelist" comment="" />
+      <created>1596128958918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596128958918</updated>
+      <workItem from="1596128963060" duration="793000" />
+      <workItem from="1596129821164" duration="3459000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="424" y="273" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596132564620">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="424" y="273" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1596132564620" />
+    <state width="1876" height="405" key="GridCell.Tab.0.bottom" timestamp="1596133454204">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454204" />
+    <state width="1876" height="405" key="GridCell.Tab.0.center" timestamp="1596133454203">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454203" />
+    <state width="1876" height="405" key="GridCell.Tab.0.left" timestamp="1596133454203">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454203" />
+    <state width="1876" height="405" key="GridCell.Tab.0.right" timestamp="1596133454204">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454204" />
+    <state width="1876" height="405" key="GridCell.Tab.1.bottom" timestamp="1596133454206">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.1.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454206" />
+    <state width="1876" height="405" key="GridCell.Tab.1.center" timestamp="1596133454205">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.1.center/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454205" />
+    <state width="1876" height="405" key="GridCell.Tab.1.left" timestamp="1596133454205">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.1.left/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454205" />
+    <state width="1876" height="405" key="GridCell.Tab.1.right" timestamp="1596133454206">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.1.right/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454206" />
+    <state width="1876" height="405" key="GridCell.Tab.2.bottom" timestamp="1596133454208">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.2.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454208" />
+    <state width="1876" height="405" key="GridCell.Tab.2.center" timestamp="1596133454207">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.2.center/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454207" />
+    <state width="1876" height="405" key="GridCell.Tab.2.left" timestamp="1596133454207">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.2.left/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454207" />
+    <state width="1876" height="405" key="GridCell.Tab.2.right" timestamp="1596133454208">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.2.right/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454208" />
+    <state width="1876" height="405" key="GridCell.Tab.3.bottom" timestamp="1596133454210">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.3.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454210" />
+    <state width="1876" height="405" key="GridCell.Tab.3.center" timestamp="1596133454209">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.3.center/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454209" />
+    <state width="1876" height="405" key="GridCell.Tab.3.left" timestamp="1596133454209">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.3.left/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454209" />
+    <state width="1876" height="405" key="GridCell.Tab.3.right" timestamp="1596133454209">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1876" height="405" key="GridCell.Tab.3.right/0.23.1920.1177@0.23.1920.1177" timestamp="1596133454209" />
+    <state x="560" y="350" key="Rider.ProjectTemplateDialog.Size" timestamp="1596130183599">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="560" y="350" key="Rider.ProjectTemplateDialog.Size/0.23.1920.1177@0.23.1920.1177" timestamp="1596130183599" />
+    <state x="648" y="373" key="deploy.picker.dialog" timestamp="1596132992682">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="648" y="373" key="deploy.picker.dialog/0.23.1920.1177@0.23.1920.1177" timestamp="1596132992682" />
+    <state x="623" y="286" width="672" height="678" key="search.everywhere.popup" timestamp="1596130420119">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="623" y="286" width="672" height="678" key="search.everywhere.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1596130420119" />
+  </component>
+</project>
