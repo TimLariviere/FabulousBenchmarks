@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FabulousBenchmarks", "FabulousBenchmarks\FabulousBenchmarks.fsproj", "{59FD7DDA-139B-4DF2-8BE6-335ECB34D64E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fabulous.XamarinForms", "..\Fabulous\Fabulous.XamarinForms\src\Fabulous.XamarinForms\Fabulous.XamarinForms.fsproj", "{A7A9D6D3-888C-4ACA-9C6E-3BEAC1F863DE}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fabulous", "..\Fabulous\src\Fabulous\Fabulous.fsproj", "{F15BA767-1647-4C1B-92DB-4C608037B0A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59FD7DDA-139B-4DF2-8BE6-335ECB34D64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59FD7DDA-139B-4DF2-8BE6-335ECB34D64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59FD7DDA-139B-4DF2-8BE6-335ECB34D64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59FD7DDA-139B-4DF2-8BE6-335ECB34D64E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A9D6D3-888C-4ACA-9C6E-3BEAC1F863DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A9D6D3-888C-4ACA-9C6E-3BEAC1F863DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A9D6D3-888C-4ACA-9C6E-3BEAC1F863DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A9D6D3-888C-4ACA-9C6E-3BEAC1F863DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15BA767-1647-4C1B-92DB-4C608037B0A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15BA767-1647-4C1B-92DB-4C608037B0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15BA767-1647-4C1B-92DB-4C608037B0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15BA767-1647-4C1B-92DB-4C608037B0A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
